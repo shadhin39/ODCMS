@@ -5,10 +5,10 @@
 * Developed In *Microsoft Visual Studio 2019*
 
 # Language
- * **Java Script**
- * **CSS**
  * **asp.net**
  * **C#**
+ * **Java Script**
+ * **CSS**
 # Project Overview 
 * With this website, patients can do a live chat with active doctors about medical problems. Also, patients can see a list of doctors and hospitals with details.
 
