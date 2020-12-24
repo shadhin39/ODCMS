@@ -7,7 +7,7 @@
 # Language
  * **C#**
 # Project Overview 
-* With this website patient can do live chat with active dortors about medical problems. Also parients can see list of doctors and hospitals with details.
+* With this website, patients can do a live chat with active doctors about medical problems. Also, patients can see a list of doctors and hospitals with details.
 
 # How to run "ODCMS" android app
 
