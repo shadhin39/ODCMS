@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="ODCMSS.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+    <link href="css1/StyleSheet1.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="style/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="Script/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+             
+    <title>ODCMS</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <hr />
+    <form id="form1" runat="server">
+        <div>
+
+            
+                         <div class="row">
+                  <div class="column">
+                      <div class="header">
+                
+           
+                <div class="site-logo">
+              <a href="index.aspx" class="js-logo-clone"><img src="images/LogoMakr_3upAsA.jpg" alt="ODCMS" style="width:150px;height:70px;">ODCMS</a>
+            </div>
+            
+          
+          </div>
+                
+            
+
+                  </div>
+                  <div class="column">
+
+                      <div class="header">
+                 <div class="topnav" id="myTopnav">
+  <a href="Index.aspx" class="active">Home</a>
+  <a href="Doctor.aspx" class="active">Doctors</a>
+  <a href="hospital.aspx" class="active">Hospitals</a>
+  <a href="chat.aspx" class="active">For Consultancy</a>
+  <a href="About.aspx" class="active">About</a>
+ 
+</div> 
+            </div> 
+                  </div>
+
+                  <div class=" header">
+
+                     <asp:LinkButton ID="signIn" runat="server" PostBackUrl="~/login.aspx" CssClass="btn btn-default" OnClick="signIn_Click" Font-Bold="true" Font-Size="Larger" >Sign In</asp:LinkButton>
+                      <asp:LinkButton ID="nameLabel" runat="server" PostBackUrl="~/login.aspx" CssClass="btn btn-default" OnClick="signIn_Click1" Font-Bold="true" Font-Size="Larger" ForeColor="#00CCFF"></asp:LinkButton>
+                        
+               
+                  </div>
+                  </div>
+          <hr />
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+       
+        
+    </form>
+    <hr />
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+            <div class="block-7">
+              <h3 class="footer-heading mb-4 size">About Us</h3>
+              <p>We provide best way to communicate with specialist doctors</p>
+            </div>
+
+          </div>
+          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+            <h3 class="footer-heading mb-4 size">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="Doctor.aspx">Doctors</a></li>
+              <li><a href="hospital.aspx">Hospitals</a></li>
+              <li><a href="chat.aspx">For Consultancy</a></li>
+              <li><a href="About.aspx">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4 size">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">Dhanmondi,Dhaka</li>
+                <li class="phone"><a>01711111111</a></li>
+                <li class="email">emailaddress@domain.com</li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+              Copyright 2020 All rights reserved 
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
