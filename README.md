@@ -18,7 +18,7 @@
 - Install the Visual Studio installer  
 - Databse MSSQL and Load the attached mdf and ldf file in the following path: C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA
 - Choose Workloads - ASP.NET and web development , .NET Framework 4.5 cross platform development  
-- Unzip ODCMSS and open ODCMSS.sln file.  
+- Unzip ODCMS and open ODCMSS.sln file.  
 - Connect The Database with the visual studio
 - Press Ctrl+f5 to run the projct.
 
