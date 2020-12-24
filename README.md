@@ -12,7 +12,7 @@
 # Project Overview 
 * With this website, patients can do a live chat with active doctors about medical problems. Also, patients can see a list of doctors and hospitals with details.
 
-# How to run "ODCMS" android app
+# How to run "ODCMS" 
 
 - Download Visual Studio 2019 Community  
 - Install the Visual Studio installer  
